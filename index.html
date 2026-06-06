@@ -335,8 +335,29 @@ font-size:.9rem;
 }
 
 }
-
+.whatsapp-btn{
+position:fixed;
+bottom:20px;
+right:20px;
+width:65px;
+height:65px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:38px;
+color:white;
+text-decoration:none;
+z-index:9999;
+box-shadow:0 0 20px rgba(0,0,0,.3);
+transition:.3s;
+}
+.whatsapp-btn:hover{
+transform:scale(1.1);
+}
 </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
@@ -846,6 +867,10 @@ window.innerHeight;
 );
 
 </script>
-
+<a href="https://wa.me/919344058436"
+class="whatsapp-btn"
+target="_blank">
+<i class="fab fa-whatsapp"></i>
+</a>
 </body>
 </html>
